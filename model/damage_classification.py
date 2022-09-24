@@ -40,9 +40,7 @@ import ast
 from keras import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Add, Input, Concatenate
 from keras.models import Model
-import tensorflow.keras.applications.ResNet50
-from keras_applications.resnet import ResNet50
-#from keras.applications.resnet50 import ResNet50
+import tensorflow.python.keras.applications.ResNet50 from keras.applications.resnet50 import ResNet50
 from keras import backend as K
 
 from model import *
